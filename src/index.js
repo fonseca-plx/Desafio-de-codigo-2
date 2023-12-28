@@ -7,22 +7,22 @@ switch(true) {
     case playerResults <= 10:
         level = "Ferro";
         break;
-    case playerResults > 10 && playerResults <= 20:
+    case playerResults >= 11 && playerResults <= 20:
         level = "Bronze";
         break;
-    case playerResults > 20 && playerResults <= 50:
+    case playerResults >= 21 && playerResults <= 50:
         level = "Prata";
         break;
-    case playerResults > 50 && playerResults <= 80:
+    case playerResults >= 51 && playerResults <= 80:
         level = "Ouro";
         break;
-    case playerResults > 80 && playerResults <= 90:
+    case playerResults >= 81 && playerResults <= 90:
         level = "Diamante";
         break;
-    case playerResults > 90 && playerResults <= 100:
+    case playerResults >= 91 && playerResults <= 100:
         level = "Lendário";
         break;
-    case playerResults > 100:
+    case playerResults >= 101:
         level = "Imortal";
         break;
     default:
